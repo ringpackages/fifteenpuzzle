@@ -7,6 +7,6 @@ func main
 	? "See the folder : ring/applications/fifteenpuzzle"
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
-	chdir(exefolder()+"/../applications/fifteenpuzle")
+	chdir(exefolder()+"/../applications/fifteenpuzzle")
 	system("ring CalmoSoftFifteenPuzzleGame.ring")
 	chdir(cDir)
